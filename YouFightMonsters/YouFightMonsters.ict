@@ -1,0 +1,1193 @@
+ctjsVersion: 4.0.0-next-5
+backups: 3
+language: coffeescript
+notes: /* empty */
+libs:
+  place:
+    gridX: 1024
+    gridY: 1024
+  pointer: {}
+  keyboard: {}
+  keyboard.polyfill: {}
+  pointer.polyfill: {}
+startroom: -1
+contentTypes: []
+actions: []
+scripts: []
+assets:
+  - lastmod: 1706423054683
+    type: texture
+    name: Knight_Idle
+    untill: 0
+    grid:
+      - 6
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 96
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iqJtK51M18r6PzB.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: qJtK51M18r6PzB
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Knight_Idle_6x1.png'
+  - lastmod: 1706423060603
+    type: texture
+    name: Knight_Run
+    untill: 0
+    grid:
+      - 6
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 96
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iR36jLRpbGjLWQr.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: R36jLRpbGjLWQr
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Knight_Run_6x1.png'
+  - lastmod: 1706423115117
+    type: texture
+    name: Slime_Idle
+    untill: 0
+    grid:
+      - 6
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 96
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: ihn5kfdLRdj2N8w.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: hn5kfdLRdj2N8w
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Slime_Idle_6x1.png'
+  - lastmod: 1706423116257
+    type: texture
+    name: Slime_Run
+    untill: 0
+    grid:
+      - 6
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 96
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iGQPNQq4Gr5NHtF.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: GQPNQq4Gr5NHtF
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Slime_Run_6x1.png'
+  - lastmod: 1706423120750
+    type: texture
+    name: Goblin_Idle
+    untill: 0
+    grid:
+      - 6
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 96
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iRckq3Km4HQNTJf.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: Rckq3Km4HQNTJf
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Goblin_Idle_6x1.png'
+  - lastmod: 1706423121859
+    type: texture
+    name: Goblin_Run
+    untill: 0
+    grid:
+      - 6
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 96
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: izHzBbz49T7R1Mp.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: zHzBbz49T7R1Mp
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Goblin_Run_6x1.png'
+  - lastmod: 1706423128354
+    type: texture
+    name: Barrel
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: i2BPh3NzJP9C8rf.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: 2BPh3NzJP9C8rf
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Barrel.png'
+  - lastmod: 1706423137483
+    type: texture
+    name: Crosshair_01
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iwj1jHzmJW2ffh4.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: wj1jHzmJW2ffh4
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Crosshair_01.png'
+  - lastmod: 1706423137504
+    type: texture
+    name: Explosion
+    untill: 0
+    grid:
+      - 7
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 224
+    imgHeight: 32
+    width: 32
+    height: 32
+    offx: 0
+    offy: 0
+    origname: ig8tKgWFNCQCn6L.png
+    shape: rect
+    left: 0
+    right: 32
+    top: 0
+    bottom: 32
+    uid: g8tKgWFNCQCn6L
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Explosion_7x1.png'
+  - lastmod: 1706423137521
+    type: texture
+    name: Weapon_Sword
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: ip88npc35m7wTG8.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: p88npc35m7wTG8
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Weapon_Sword.png'
+  - lastmod: 1706423137485
+    type: texture
+    name: Chest
+    untill: 0
+    grid:
+      - 8
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 128
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: ip4MNkrW6KPHmRr.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: p4MNkrW6KPHmRr
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Chest_8x1.png'
+  - lastmod: 1706423137486
+    type: texture
+    name: Crosshair_02
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iPn3PbpHj3F8qNW.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: Pn3PbpHj3F8qNW
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Crosshair_02.png'
+  - lastmod: 1706423137518
+    type: texture
+    name: Table_02
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 32
+    imgHeight: 16
+    width: 32
+    height: 16
+    offx: 0
+    offy: 0
+    origname: icPpbQrcrtH22d6.png
+    shape: rect
+    left: 0
+    right: 32
+    top: 0
+    bottom: 16
+    uid: cPpbQrcrtH22d6
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Table_02.png'
+  - lastmod: 1706423137488
+    type: texture
+    name: Crosshair_03
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: icBjhjL2jp3jfNm.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: cBjhjL2jp3jfNm
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Crosshair_03.png'
+  - lastmod: 1706423137489
+    type: texture
+    name: Door
+    untill: 0
+    grid:
+      - 14
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 448
+    imgHeight: 32
+    width: 32
+    height: 32
+    offx: 0
+    offy: 0
+    origname: i6rfh3KBBC9JpPd.png
+    shape: rect
+    left: 0
+    right: 32
+    top: 0
+    bottom: 32
+    uid: 6rfh3KBBC9JpPd
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Door_14x1.png'
+  - lastmod: 1706423137494
+    type: texture
+    name: Door_FullyOpen
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 32
+    imgHeight: 32
+    width: 32
+    height: 32
+    offx: 0
+    offy: 0
+    origname: iDkhLtFFKmHTwhn.png
+    shape: rect
+    left: 0
+    right: 32
+    top: 0
+    bottom: 32
+    uid: DkhLtFFKmHTwhn
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Door_FullyOpen.png'
+  - lastmod: 1706423137495
+    type: texture
+    name: Flag_Green
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iKLLgGzggPJf6zF.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: KLLgGzggPJf6zF
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Flag_Green.png'
+  - lastmod: 1706423137496
+    type: texture
+    name: Flag_Red
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iQf2qzrCFKwKbtG.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: Qf2qzrCFKwKbtG
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Flag_Red.png'
+  - lastmod: 1706423137498
+    type: texture
+    name: Bomb
+    untill: 0
+    grid:
+      - 10
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 160
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: i3rBQkH8rwtqTKG.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: 3rBQkH8rwtqTKG
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Bomb_10x1.png'
+  - lastmod: 1706423137497
+    type: texture
+    name: Key_Silver
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: imTzqWhNhhp6mP3.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: mTzqWhNhhp6mP3
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Key_Silver.png'
+  - lastmod: 1706423137498
+    type: texture
+    name: CoinsBag
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iC7FwrTFmzQd3Nd.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: C7FwrTFmzQd3Nd
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\CoinsBag.png'
+  - lastmod: 1706423137499
+    type: texture
+    name: Door_Closed
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 32
+    imgHeight: 32
+    width: 32
+    height: 32
+    offx: 0
+    offy: 0
+    origname: ikb6TtR8QnLrL7B.png
+    shape: rect
+    left: 0
+    right: 32
+    top: 0
+    bottom: 32
+    uid: kb6TtR8QnLrL7B
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Door_Closed.png'
+  - lastmod: 1706423137500
+    type: texture
+    name: Bookshelf
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iDrPqmMT5W1BfBf.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: DrPqmMT5W1BfBf
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Bookshelf.png'
+  - lastmod: 1706423137500
+    type: texture
+    name: FullTilemap
+    untill: 0
+    grid:
+      - 9
+      - 8
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 144
+    imgHeight: 128
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: ihP2CgHqhmcRLWh.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: hP2CgHqhmcRLWh
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\FullTilemap_9x8.png'
+  - lastmod: 1706423137501
+    type: texture
+    name: Menu_Button
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 96
+    imgHeight: 32
+    width: 96
+    height: 32
+    offx: 0
+    offy: 0
+    origname: iq17j6GRh54f8Kp.png
+    shape: rect
+    left: 0
+    right: 96
+    top: 0
+    bottom: 32
+    uid: q17j6GRh54f8Kp
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Menu_Button.png'
+  - lastmod: 1706423137503
+    type: texture
+    name: Fly
+    untill: 0
+    grid:
+      - 4
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: i3bWnDtfPc42Wdr.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: 3bWnDtfPc42Wdr
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Fly_4x1.png'
+  - lastmod: 1706423137502
+    type: texture
+    name: EnemyExplosion
+    untill: 0
+    grid:
+      - 4
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iCMrqdhJfW9P7qH.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: CMrqdhJfW9P7qH
+    padding: 1
+    isBlank: false
+    source: >-
+      D:\ctjs\bundledAssets\textures\Dungeon Crawler
+      16x16\EnemyExplosion_4x1.png
+  - lastmod: 1706423137517
+    type: texture
+    name: Potion_Red
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iQGh64g7zh1bw2C.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: QGh64g7zh1bw2C
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Potion_Red.png'
+  - lastmod: 1706423137516
+    type: texture
+    name: Table_01
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iGb7grrgzgLw47W.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: Gb7grrgzgLw47W
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Table_01.png'
+  - lastmod: 1706423137515
+    type: texture
+    name: Potion_Yellow
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: ih2m9KWFmbJ3nQq.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: h2m9KWFmbJ3nQq
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Potion_Yellow.png'
+  - lastmod: 1706423137506
+    type: texture
+    name: Menu_Button_Press
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 96
+    imgHeight: 32
+    width: 96
+    height: 32
+    offx: 0
+    offy: 0
+    origname: inpTmdKW9RhddQC.png
+    shape: rect
+    left: 0
+    right: 96
+    top: 0
+    bottom: 32
+    uid: npTmdKW9RhddQC
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Menu_Button_Press.png'
+  - lastmod: 1706423137506
+    type: texture
+    name: HitEffect
+    untill: 0
+    grid:
+      - 3
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 24
+    imgHeight: 8
+    width: 8
+    height: 8
+    offx: 0
+    offy: 0
+    origname: iBcf1RMjJkWHqHf.png
+    shape: rect
+    left: 0
+    right: 8
+    top: 0
+    bottom: 8
+    uid: Bcf1RMjJkWHqHf
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\HitEffect_3x1.png'
+  - lastmod: 1706423137514
+    type: texture
+    name: Prisoner
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: irTmntN4q4nm7hJ.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: rTmntN4q4nm7hJ
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Prisoner.png'
+  - lastmod: 1706423137512
+    type: texture
+    name: UI_Health
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 80
+    imgHeight: 16
+    width: 80
+    height: 16
+    offx: 0
+    offy: 0
+    origname: i3phDCcJ2zbnjzH.png
+    shape: rect
+    left: 0
+    right: 80
+    top: 0
+    bottom: 16
+    uid: 3phDCcJ2zbnjzH
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\UI_Health.png'
+  - lastmod: 1706423137508
+    type: texture
+    name: Slash_Effect_Anim_Spritesheet
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 48
+    imgHeight: 16
+    width: 48
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iFmJBLwjQJkMz3C.png
+    shape: rect
+    left: 0
+    right: 48
+    top: 0
+    bottom: 16
+    uid: FmJBLwjQJkMz3C
+    padding: 1
+    isBlank: false
+    source: >-
+      D:\ctjs\bundledAssets\textures\Dungeon Crawler
+      16x16\Slash_Effect_Anim_Spritesheet.png
+  - lastmod: 1706423137511
+    type: texture
+    name: Potion_Green
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: ij6tqg8b6zKKnQN.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: j6tqg8b6zKKnQN
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Potion_Green.png'
+  - lastmod: 1706423137509
+    type: texture
+    name: Pause_Button
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iz2TcNLjkQDb4zJ.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: z2TcNLjkQDb4zJ
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Pause_Button.png'
+  - lastmod: 1706423137510
+    type: texture
+    name: Torch
+    untill: 0
+    grid:
+      - 6
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 96
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: i7DLp4bFD9k9Pmt.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: 7DLp4bFD9k9Pmt
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Torch_6x1.png'
+  - lastmod: 1706423137511
+    type: texture
+    name: Pause_Button_Press
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: iGR5tRBjn125DpB.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: GR5tRBjn125DpB
+    padding: 1
+    isBlank: false
+    source: >-
+      D:\ctjs\bundledAssets\textures\Dungeon Crawler
+      16x16\Pause_Button_Press.png
+  - lastmod: 1706423137509
+    type: texture
+    name: Spikes
+    untill: 0
+    grid:
+      - 10
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 160
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: ipfc13QqtNQGF88.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: pfc13QqtNQGF88
+    padding: 1
+    isBlank: false
+    source: 'D:\ctjs\bundledAssets\textures\Dungeon Crawler 16x16\Spikes_10x1.png'
+settings:
+  authoring:
+    author: ''
+    site: ''
+    title: ''
+    version:
+      - 0
+      - 0
+      - 0
+    versionPostfix: ''
+    appId: ''
+  rendering:
+    usePixiLegacy: true
+    transparent: false
+    maxFPS: 60
+    pixelatedrender: false
+    highDensity: true
+    desktopMode: maximized
+    hideCursor: false
+    mobileScreenOrientation: unspecified
+    viewMode: scaleFit
+  export:
+    autocloseDesktop: true
+    windows: true
+    linux: true
+    mac: true
+    functionWrap: false
+    codeModifier: none
+    bundleAssetTree: false
+    bundleAssetTypes:
+      texture: true
+      template: true
+      room: true
+      behavior: false
+      font: false
+      sound: false
+      style: false
+      tandem: false
+      script: false
+  branding:
+    accent: '#446adb'
+    invertPreloaderScheme: true
+    icon: -1
+    splashScreen: -1
+    forceSmoothIcons: false
+    forceSmoothSplashScreen: false
+    hideLoadingLogo: false
+    alternativeLogo: false
+    customLoadingText: ''
+  fps: 30
