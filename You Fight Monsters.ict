@@ -1,0 +1,786 @@
+ctjsVersion: 3.3.0
+language: coffeescript
+notes: /* empty */
+libs:
+  place:
+    gridX: 1024
+    gridY: 1024
+  fittoscreen:
+    mode: scaleFit
+  pointer: {}
+  keyboard.polyfill: {}
+  sound.howler: {}
+  keyboard: {}
+  random: {}
+textures:
+  - lastmod: 1707533007599
+    type: texture
+    name: Meteor_Grey_Big_01
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 50
+      - 42
+    marginx: 0
+    marginy: 0
+    imgWidth: 101
+    imgHeight: 84
+    width: 101
+    height: 84
+    offx: 0
+    offy: 0
+    origname: i7r3Qm7LpKThJhd.png
+    shape: strip
+    left: 50
+    right: 51
+    top: 42
+    bottom: 42
+    uid: 7r3Qm7LpKThJhd
+    padding: 1
+    isBlank: false
+    group: !<tag:yaml.org,2002:js/undefined> ''
+    source: >-
+      C:\Users\joshb\AppData\Local\ct.js\bundledAssets\textures\Kenney's Space
+      Shooter\Meteor_Grey_Big_01.png
+    stripPoints:
+      - x: -32.5
+        'y': -40.5
+      - x: 23.75
+        'y': -40
+      - x: 50.25
+        'y': -1.5
+      - x: 34
+        'y': 32.25
+      - x: 10.75
+        'y': 28.5
+      - x: -22
+        'y': 40.5
+      - x: -49
+        'y': 9.5
+    closedStrip: true
+  - lastmod: 1707533025570
+    type: texture
+    name: Meteor_Grey_Med_01
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 21
+      - 21
+    marginx: 0
+    marginy: 0
+    imgWidth: 43
+    imgHeight: 43
+    width: 43
+    height: 43
+    offx: 0
+    offy: 0
+    origname: iwCBTdmFbzf3Www.png
+    shape: strip
+    left: 21
+    right: 22
+    top: 21
+    bottom: 22
+    uid: wCBTdmFbzf3Www
+    padding: 1
+    isBlank: false
+    group: !<tag:yaml.org,2002:js/undefined> ''
+    source: >-
+      C:\Users\joshb\AppData\Local\ct.js\bundledAssets\textures\Kenney's Space
+      Shooter\Meteor_Grey_Med_01.png
+    stripPoints:
+      - x: -8
+        'y': -19.5
+      - x: 16.875
+        'y': -17.875
+      - x: 21
+        'y': 6.125
+      - x: 0.875
+        'y': 20.75
+      - x: -13
+        'y': 17
+      - x: -20.166666666666668
+        'y': -2.25
+    closedStrip: true
+  - lastmod: 1707532720216
+    type: texture
+    name: BG_Blue
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 256
+    imgHeight: 256
+    width: 256
+    height: 256
+    offx: 0
+    offy: 0
+    origname: iK2GK892tMKHnpz.png
+    shape: rect
+    left: 0
+    right: 256
+    top: 0
+    bottom: 256
+    uid: K2GK892tMKHnpz
+    padding: 1
+    isBlank: false
+    group: !<tag:yaml.org,2002:js/undefined> ''
+    source: >-
+      C:\Users\joshb\AppData\Local\ct.js\bundledAssets\textures\Kenney's Space
+      Shooter\BG_Blue.png
+    tiled: true
+  - lastmod: 1707533056271
+    type: texture
+    name: Enemy_Red_03
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 51
+      - 42
+    marginx: 0
+    marginy: 0
+    imgWidth: 103
+    imgHeight: 84
+    width: 103
+    height: 84
+    offx: 0
+    offy: 0
+    origname: i5mBPGGDm8g79Nk.png
+    shape: strip
+    left: 51
+    right: 52
+    top: 42
+    bottom: 42
+    uid: 5mBPGGDm8g79Nk
+    padding: 1
+    isBlank: false
+    group: !<tag:yaml.org,2002:js/undefined> ''
+    source: >-
+      C:\Users\joshb\AppData\Local\ct.js\bundledAssets\textures\Kenney's Space
+      Shooter\Enemy_Red_03.png
+    stripPoints:
+      - x: -24.833333333333332
+        'y': -34.166666666666664
+      - x: 1.1666666666666643
+        'y': -41.166666666666664
+      - x: 26.5
+        'y': -34.33333333333333
+      - x: 51.83333333333334
+        'y': -1.8333333333333333
+      - x: 37.333333333333336
+        'y': 40.333333333333336
+      - x: -37
+        'y': 40.666666666666664
+      - x: -50.333333333333336
+        'y': -2.166666666666666
+    closedStrip: true
+  - lastmod: 1707532976516
+    type: texture
+    name: Laser_Blue_07
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 4
+      - 18
+    marginx: 0
+    marginy: 0
+    imgWidth: 9
+    imgHeight: 37
+    width: 9
+    height: 37
+    offx: 0
+    offy: 0
+    origname: iMFqdfT1rnWT9gC.png
+    shape: rect
+    left: 4
+    right: 5
+    top: 18
+    bottom: 19
+    uid: MFqdfT1rnWT9gC
+    padding: 1
+    isBlank: false
+    group: !<tag:yaml.org,2002:js/undefined> ''
+    source: >-
+      C:\Users\joshb\AppData\Local\ct.js\bundledAssets\textures\Kenney's Space
+      Shooter\Laser_Blue_07.png
+  - lastmod: 1707532952436
+    type: texture
+    name: Laser_Red_09
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 24
+      - 23
+    marginx: 0
+    marginy: 0
+    imgWidth: 48
+    imgHeight: 46
+    width: 48
+    height: 46
+    offx: 0
+    offy: 0
+    origname: iPTCdRRkgW7cttf.png
+    shape: circle
+    left: 24
+    right: 24
+    top: 23
+    bottom: 23
+    uid: PTCdRRkgW7cttf
+    padding: 1
+    isBlank: false
+    group: !<tag:yaml.org,2002:js/undefined> ''
+    source: >-
+      C:\Users\joshb\AppData\Local\ct.js\bundledAssets\textures\Kenney's Space
+      Shooter\Laser_Red_09.png
+    r: 23
+  - lastmod: 1707532924238
+    type: texture
+    name: PlayerShip_02_Blue
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 56
+      - 37
+    marginx: 0
+    marginy: 0
+    imgWidth: 112
+    imgHeight: 75
+    width: 112
+    height: 75
+    offx: 0
+    offy: 0
+    origname: ih15jTBGD9cG68J.png
+    shape: strip
+    left: 56
+    right: 56
+    top: 37
+    bottom: 38
+    uid: h15jTBGD9cG68J
+    padding: 1
+    isBlank: false
+    group: !<tag:yaml.org,2002:js/undefined> ''
+    source: >-
+      C:\Users\joshb\AppData\Local\ct.js\bundledAssets\textures\Kenney's Space
+      Shooter\PlayerShip_02_Blue.png
+    stripPoints:
+      - x: 0
+        'y': -38
+      - x: 11.25
+        'y': -16.25
+      - x: 56
+        'y': 5.25
+      - x: 36.75
+        'y': 33.5
+      - x: -38.75
+        'y': 33.5
+      - x: -55.5
+        'y': 6.5
+      - x: -10.5
+        'y': -16.75
+    closedStrip: true
+skeletons: []
+templates:
+  - type: template
+    name: PlayerShip
+    depth: 0
+    texture: h15jTBGD9cG68J
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: |
+          # Move the ship
+          # See Project > Actions and input methods panel
+          # and "Actions" in the docs.
+
+          @x += 8 * ct.delta * ct.actions.MoveX.value # Move by X axis
+
+          # Check whether the ship fell off the viewport
+          if @x < 0 # Have the ship crossed the left border?
+              @x = 0 # Go back to the left border
+
+          if @x > ct.camera.width # Have the ship crossed the right border?
+              @x = ct.camera.width # Go back to the right border
+
+          @move()
+
+
+          @y += 5.5 * ct.delta * ct.actions.MoveY.value # Move by Y axis
+
+          # Check whether the ship fell off the viewport
+          if @y < 0 # Have the ship crossed the left border?
+              @y = 0 # Go back to the left border
+
+          if @y > ct.camera.height # Have the ship crossed the right border?
+              @y = ct.camera.height # Go back to the right border
+
+          @move()
+        arguments: {}
+      - eventKey: OnActionPress
+        code: |
+          ct.templates.copy 'LaserBlue', @x, @y
+        arguments:
+          action: Shoot
+        lib: core
+      - eventKey: collisionCGroup
+        code: |
+          if ct.templates.isCopy(other)
+              other.kill = true
+
+          ct.room.lives--
+
+          if ct.room.lives <= 0
+              @kill = true
+              ct.u.wait 1000
+              .then =>
+                  ct.rooms.switch 'FirstRoom'
+        arguments:
+          group: Hostile
+        lib: place
+    extends: {}
+    lastmod: 1707544166292
+    uid: 1qpgQ4DJ3f8Jmt
+  - type: template
+    name: EnemyShip
+    depth: 0
+    texture: 5mBPGGDm8g79Nk
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: |-
+          this.move()
+
+          if @y > ct.camera.height + 80
+              @kill = yes
+        arguments: {}
+      - eventKey: OnCreate
+        code: |
+          @speed = 3
+          @direction = 90
+          @timer1 = 1
+        arguments: {}
+        lib: core
+      - eventKey: collisionTemplate
+        code: |-
+          other.kill = true
+          @kill = true
+          ct.room.score += 100
+        arguments:
+          template: RQcz1BgKQcQMgt
+        lib: place
+      - eventKey: Timer1
+        code: |
+          @timer1 = 3
+          ct.templates.copy 'LaserRed', @x, @y + 32
+        arguments:
+          name: Timer 1
+          isUi: false
+        lib: core
+    extends:
+      cgroup: Hostile
+    lastmod: 1707544211372
+    uid: 1tDHtH926fCrj9
+    group: Qp976PKNFcFJLC
+  - type: template
+    name: LaserBlue
+    depth: 0
+    texture: MFqdfT1rnWT9gC
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: |
+          if @y < -40
+            @kill = true
+
+          @move()
+        arguments: {}
+      - eventKey: OnCreate
+        code: |
+          @speed = 18
+          @direction = 270
+        arguments: {}
+        lib: core
+    extends: {}
+    lastmod: 1707537767154
+    uid: RQcz1BgKQcQMgt
+  - type: template
+    name: LaserRed
+    depth: 0
+    texture: PTCdRRkgW7cttf
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: |
+          if @y > ct.camera.height + 40
+            @kill = true
+
+          @move()
+
+          @angle -= 4 * ct.delta
+        arguments: {}
+      - eventKey: OnCreate
+        code: |
+          @speed = 8
+          @direction = 90
+          @angle = ct.random.deg()
+        arguments: {}
+        lib: core
+    extends: {}
+    lastmod: 1707537998754
+    uid: gf47CJPPzRw84K
+  - type: template
+    name: MeteorBig
+    depth: 0
+    texture: 7r3Qm7LpKThJhd
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: |-
+          @move()
+
+          if @y > ct.camera.height + 80
+            @kill = true
+        arguments: {}
+      - eventKey: OnCreate
+        code: |-
+          @speed = ct.random.range(1, 3)
+          @direction = ct.random.range(90 - 30, 90 + 30)
+        arguments: {}
+        lib: core
+      - eventKey: collisionTemplate
+        code: |-
+          other.kill = true
+          @kill = true
+          ct.templates.copy 'MeteorMedium', @x, @y
+          ct.templates.copy 'MeteorMedium', @x, @y
+          ct.room.score += 15
+        arguments:
+          template: RQcz1BgKQcQMgt
+        lib: place
+    extends:
+      cgroup: Hostile
+    lastmod: 1707544206740
+    uid: P8HM2N14GwtCGm
+    group: Qp976PKNFcFJLC
+  - type: template
+    name: MeteorMedium
+    depth: 0
+    texture: wCBTdmFbzf3Www
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: |
+          @move()
+
+          if @y > ct.camera.height + 80
+            @kill = true
+        arguments: {}
+      - eventKey: OnCreate
+        code: |
+          @speed = ct.random.range(2, 4)
+          @direction = ct.random.range(90 - 30, 90 + 30)
+        arguments: {}
+        lib: core
+      - eventKey: collisionTemplate
+        code: |-
+          other.kill = true
+          @kill = true
+          ct.room.score += 10
+        arguments:
+          template: RQcz1BgKQcQMgt
+        lib: place
+    extends:
+      cgroup: Hostile
+    lastmod: 1707544202755
+    uid: dChwNQL67KP4bF
+    group: Qp976PKNFcFJLC
+sounds: []
+styles:
+  - name: ScoreText
+    uid: rBgdCGcktDNqF5
+    origname: stDNqF5
+    font:
+      family: sans-serif
+      size: 32
+      weight: '800'
+      italic: true
+      halign: left
+    fill:
+      type: '0'
+      color: '#78B2FF'
+    shadow:
+      color: '#616161'
+      x: 0
+      'y': 0
+      blur: 0
+    lastmod: 1707541842170
+  - name: LivesText
+    uid: DwdJtRHwWJMnq8
+    origname: sWJMnq8
+    font:
+      family: sans-serif
+      size: 48
+      weight: '900'
+      italic: true
+      halign: right
+    lastmod: 1707542292421
+    shadow:
+      color: '#8A8A8A'
+      x: 0
+      'y': 0
+      blur: 0
+    fill:
+      type: '0'
+      color: '#349127'
+fonts: []
+rooms:
+  - type: room
+    oncreate: ''
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    gridX: 64
+    gridY: 64
+    diagonalGrid: false
+    simulate: true
+    width: 1280
+    height: 720
+    restrictCamera: false
+    restrictMaxX: 1280
+    restrictMinX: 1280
+    restrictMaxY: 720
+    restrictMinY: 720
+    isUi: false
+    name: FirstRoom
+    backgroundColor: '#000000'
+    follow: -1
+    backgrounds:
+      - depth: -5
+        texture: K2GK892tMKHnpz
+        shiftX: 0
+        shiftY: 0
+        parallaxX: 1
+        parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 1
+        scaleY: 1
+        repeat: repeat
+    copies:
+      - x: 448
+        'y': 128
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: 1tDHtH926fCrj9
+        exts: {}
+        customProperties: {}
+      - x: 576
+        'y': 512
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: 1qpgQ4DJ3f8Jmt
+        exts: {}
+        customProperties: {}
+      - x: 704
+        'y': 64
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: P8HM2N14GwtCGm
+        exts: {}
+        customProperties: {}
+      - x: 896
+        'y': 192
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: P8HM2N14GwtCGm
+        exts: {}
+        customProperties: {}
+    tiles: []
+    extends: {}
+    lastmod: 1707544591841
+    events:
+      - eventKey: OnRoomStart
+        code: |
+          # asteroid timer
+          @timer1 = 0.3
+          # enemy timer
+          @timer2 = 3
+
+          @score = 0
+          style = ct.styles.get 'ScoreText'
+          @scoreLabel = new PIXI.Text 'Score: ' + @score, style
+          @addChild @scoreLabel
+          @scoreLabel.x = 30
+          @scoreLabel.y = 30
+          @scoreLabel.depth = 1000
+
+
+          @lives = 3
+
+          style = ct.styles.get 'LivesText'
+          @livesLabel = new PIXI.Text 'Lives: ' + @lives, style
+
+          @addChild @livesLabel
+          @livesLabel.x = ct.camera.width - 200
+          @livesLabel.y = 30
+          @livesLabel.depth = 1000
+        arguments: {}
+        lib: core
+      - eventKey: Timer1
+        code: |
+          # asteroid timer
+          @timer1 = ct.random.range 0.3, 3
+
+          randomAsteroid = ct.random.dice 'MeteorBig', 'MeteorMedium'
+          randomX = ct.random ct.camera.width
+          ct.templates.copy randomAsteroid, randomX, -100
+        arguments:
+          name: Timer 1
+          isUi: false
+        lib: core
+      - eventKey: Timer2
+        code: |
+          # enemy timer
+          @timer2 = ct.random.range 3, 6
+
+          randomX =  ct.random ct.camera.width
+          ct.templates.copy 'EnemyShip', randomX, -100
+        arguments:
+          name: Timer 2
+          isUi: false
+        lib: core
+      - eventKey: OnDraw
+        code: |-
+          @scoreLabel.text = 'Score: ' + @score
+          @livesLabel.text = 'Lives: ' + @lives
+        arguments: {}
+        lib: core
+    uid: 5RMfBzk5T5njrk
+actions:
+  - name: Shoot
+    methods:
+      - code: keyboard.Space
+      - code: pointer.Primary
+  - name: MoveY
+    methods:
+      - code: keyboard.ArrowUp
+        multiplier: -1
+      - code: keyboard.ArrowDown
+      - code: keyboard.KeyW
+        multiplier: -1
+      - code: keyboard.KeyS
+  - name: MoveX
+    methods:
+      - code: keyboard.KeyA
+        multiplier: -1
+      - code: keyboard.KeyD
+      - code: keyboard.ArrowLeft
+        multiplier: -1
+      - code: keyboard.ArrowRight
+emitterTandems: []
+scripts: []
+startroom: -1
+contentTypes: []
+groups:
+  fonts: []
+  textures: []
+  styles: []
+  rooms: []
+  templates:
+    - name: Hostile
+      icon: folder
+      colorClass: error
+      uid: Qp976PKNFcFJLC
+  sounds: []
+  emitterTandems: []
+settings:
+  authoring:
+    author: ''
+    site: ''
+    title: ''
+    version:
+      - 0
+      - 0
+      - 0
+    versionPostfix: ''
+    appId: ''
+  rendering:
+    usePixiLegacy: true
+    transparent: false
+    maxFPS: 60
+    pixelatedrender: false
+    highDensity: true
+    desktopMode: maximized
+    hideCursor: false
+    mobileScreenOrientation: unspecified
+  export:
+    windows: true
+    linux: true
+    mac: true
+    functionWrap: false
+    codeModifier: none
+  branding:
+    accent: '#446adb'
+    invertPreloaderScheme: true
+    icon: -1
+    splashScreen: -1
+    forceSmoothIcons: false
+    forceSmoothSplashScreen: false
+    hideLoadingLogo: false
+  fps: 30
+palette: []
